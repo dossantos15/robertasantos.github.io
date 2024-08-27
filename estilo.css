@@ -1,0 +1,105 @@
+/*Parte visual do site*/
+
+body {
+    margin: 0;
+    background-color: #e7c8fc98;
+}
+
+.container {
+    display: grid;
+}
+
+.menu {
+    grid-column-start: 6;
+    grid-column-end: 12;
+    justify-content: center;
+    gap: 20px;
+    background-color: #c066fc98;
+}
+
+.imagem_nuvem {
+    grid-column-start: 5;
+    grid-column-end: 8;
+}
+
+.principal {
+    grid-column-start: 1;
+    grid-column-end: 12;
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+}
+
+h1{
+    font-size: 2rem;
+    color: #3d006698;
+}
+
+footer {
+    text-align: center;
+    background-color: #c066fc98;
+}
+
+ul {
+    list-style-type: none;
+    color: #000000;
+}
+
+a, a:link {
+    text-decoration: none;
+    padding: 8px 60px;
+}
+
+li {
+    float: left;
+}
+
+a:hover {
+    background-color: #7f24bb98;
+    color: white;
+}
+
+.imagem_rodape{
+    margin: 10px;
+}
+
+.card {
+    display: flex;
+    flex-flow: row;
+    justify-content: space-between;
+}
+
+.card2 {
+    display: flex;
+    flex-flow: column;
+}
+
+.img {
+    border: 1px solid #7f24bb98;
+    border-radius: 1rem;
+    padding: 1rem;
+    margin-bottom: 0.8rem;
+}
+
+.img img {
+    width: 180px;
+    height: 120px;
+    border-radius: 0.5rem;
+}
+
+.img2 {
+    text-align: center;
+}
+
+.img3 {
+    border: 1px solid #7f24bb98;
+    border-radius: 1rem;
+    text-align: center;
+    margin: 5px;
+}
+
+.contato {
+    padding-left: 25px;
+    padding-right: 25px;
+    text-align: justify;
+}
